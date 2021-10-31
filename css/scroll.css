@@ -1,0 +1,22 @@
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--c-primary-font);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--c-white);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-white);
+}
